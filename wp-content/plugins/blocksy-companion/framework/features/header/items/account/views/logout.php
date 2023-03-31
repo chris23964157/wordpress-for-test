@@ -24,7 +24,7 @@ $link = '#account-modal';
 $login_account_action = blocksy_akg('login_account_action', $atts, 'modal');
 
 if ($login_account_action === 'custom') {
-	$link = blocksy_akg('loggedout_account_custom_page', $atts, '');
+	$link = do_shortcode(blocksy_akg('loggedout_account_custom_page', $atts, ''));
 }
 
 if ($login_account_action === 'woocommerce_account') {

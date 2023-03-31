@@ -7,7 +7,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2023-03-27 14:37+0000\n"
+"POT-Creation-Date: 2023-03-30 16:18+0000\n"
 "Project-Id-Version: undefined\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;"
@@ -63,7 +63,7 @@ msgid ""
 msgstr ""
 
 #: framework/extensions-manager.php:269,
-#: framework/premium/extensions/custom-fonts/extension.php:190
+#: framework/premium/extensions/custom-fonts/extension.php:191
 msgid "Custom Fonts"
 msgstr ""
 
@@ -131,73 +131,73 @@ msgid ""
 "a wishlits page."
 msgstr ""
 
-#: framework/theme-integration.php:371,
+#: framework/theme-integration.php:413,
 #: framework/extensions/widgets/widgets/ct-facebook/options.php:16,
 #: framework/extensions/widgets/widgets/ct-facebook/view.php:12,
 #: framework/extensions/widgets/widgets/ct-facebook/widget.php:13
 msgid "Facebook"
 msgstr ""
 
-#: framework/theme-integration.php:372
+#: framework/theme-integration.php:414
 msgid "Twitter"
 msgstr ""
 
-#: framework/theme-integration.php:373
+#: framework/theme-integration.php:415
 msgid "LinkedIn"
 msgstr ""
 
-#: framework/theme-integration.php:374
+#: framework/theme-integration.php:416
 msgid "Dribbble"
 msgstr ""
 
-#: framework/theme-integration.php:375
+#: framework/theme-integration.php:417
 msgid "Instagram"
 msgstr ""
 
-#: framework/theme-integration.php:376
+#: framework/theme-integration.php:418
 msgid "Pinterest"
 msgstr ""
 
-#: framework/theme-integration.php:377
+#: framework/theme-integration.php:419
 msgid "WordPress"
 msgstr ""
 
-#: framework/theme-integration.php:378
+#: framework/theme-integration.php:420
 msgid "GitHub"
 msgstr ""
 
-#: framework/theme-integration.php:379,
+#: framework/theme-integration.php:421,
 #: framework/extensions/widgets/widgets/ct-contact-info/options.php:497,
 #: framework/extensions/widgets/widgets/ct-socials/options.php:100,
 #: framework/premium/features/content-blocks/options/archive.php:47
 msgid "Medium"
 msgstr ""
 
-#: framework/theme-integration.php:380
+#: framework/theme-integration.php:422
 msgid "YouTube"
 msgstr ""
 
-#: framework/theme-integration.php:381
+#: framework/theme-integration.php:423
 msgid "Vimeo"
 msgstr ""
 
-#: framework/theme-integration.php:382
+#: framework/theme-integration.php:424
 msgid "VKontakte"
 msgstr ""
 
-#: framework/theme-integration.php:383
+#: framework/theme-integration.php:425
 msgid "Odnoklassniki"
 msgstr ""
 
-#: framework/theme-integration.php:384
+#: framework/theme-integration.php:426
 msgid "TikTok"
 msgstr ""
 
-#: framework/theme-integration.php:460
+#: framework/theme-integration.php:502
 msgid "Companion"
 msgstr ""
 
-#: framework/theme-integration.php:478 static/js/screens/SiteExport.js:111
+#: framework/theme-integration.php:520 static/js/screens/SiteExport.js:111
 msgid "PRO"
 msgstr ""
 
@@ -220,34 +220,34 @@ msgid ""
 msgstr ""
 
 #: framework/features/account-auth.php:119,
-#: framework/features/account-auth.php:273
+#: framework/features/account-auth.php:277
 msgid "Check your email"
 msgstr ""
 
 #. translators: 1: link open 2: link close
-#: framework/features/account-auth.php:259
+#: framework/features/account-auth.php:263
 msgid ""
 "Registration complete. Please check your email, then visit the %1$sslogin "
 "page%2$s."
 msgstr ""
 
-#: framework/features/account-auth.php:232
+#: framework/features/account-auth.php:236
 msgid ""
 "Your account was created successfully. Your login details have been sent to "
 "your email address. Please visit the %1$slogin page%2$s."
 msgstr ""
 
-#: framework/features/account-auth.php:244
+#: framework/features/account-auth.php:248
 msgid ""
 "Your account was created successfully and a password has been sent to your "
 "email address. Please visit the %1$slogin page%2$s."
 msgstr ""
 
-#: framework/features/account-auth.php:279
+#: framework/features/account-auth.php:283
 msgid "Registration Form"
 msgstr ""
 
-#: framework/features/account-auth.php:280
+#: framework/features/account-auth.php:284
 msgid "Register For This Site"
 msgstr ""
 
@@ -366,7 +366,7 @@ msgstr ""
 
 #: framework/features/conditions-manager.php:718,
 #: framework/premium/features/premium-header/items/search-input/options.php:45,
-#: framework/premium/features/premium-header/items/search-input/view.php:100
+#: framework/premium/features/premium-header/items/search-input/view.php:103
 msgid "Search"
 msgstr ""
 
@@ -748,8 +748,9 @@ msgstr ""
 #: framework/premium/extensions/mega-menu/options.php:806,
 #: framework/premium/extensions/mega-menu/options.php:853,
 #: framework/premium/extensions/mega-menu/options.php:872,
-#: framework/premium/extensions/shortcuts/customizer.php:815,
-#: framework/premium/extensions/shortcuts/customizer.php:847,
+#: framework/premium/extensions/shortcuts/customizer.php:825,
+#: framework/premium/extensions/shortcuts/customizer.php:859,
+#: framework/premium/extensions/shortcuts/customizer.php:891,
 #: framework/premium/extensions/woocommerce-extra/floating-cart.php:99,
 #: framework/premium/extensions/woocommerce-extra/offcanvas-filter.php:73,
 #: framework/premium/extensions/woocommerce-extra/offcanvas-filter.php:369,
@@ -822,8 +823,9 @@ msgstr ""
 #: framework/extensions/newsletter-subscribe/customizer.php:329,
 #: framework/extensions/trending/customizer.php:372,
 #: framework/premium/extensions/mega-menu/options.php:811,
-#: framework/premium/extensions/shortcuts/customizer.php:821,
-#: framework/premium/extensions/shortcuts/customizer.php:853,
+#: framework/premium/extensions/shortcuts/customizer.php:831,
+#: framework/premium/extensions/shortcuts/customizer.php:865,
+#: framework/premium/extensions/shortcuts/customizer.php:897,
 #: framework/premium/extensions/woocommerce-extra/offcanvas-filter.php:374,
 #: framework/premium/extensions/woocommerce-extra/offcanvas-filter.php:409,
 #: framework/premium/extensions/woocommerce-extra/offcanvas-filter.php:448,
@@ -873,7 +875,7 @@ msgstr ""
 #: framework/extensions/cookies-consent/customizer.php:270,
 #: framework/extensions/trending/customizer.php:348,
 #: framework/premium/extensions/mega-menu/options.php:840,
-#: framework/premium/extensions/shortcuts/customizer.php:797,
+#: framework/premium/extensions/shortcuts/customizer.php:807,
 #: framework/premium/extensions/woocommerce-extra/floating-cart.php:86,
 #: framework/features/header/items/account/options.php:991,
 #: framework/premium/extensions/post-types-extra/includes/filtering/customizer.php:184,
@@ -1236,7 +1238,7 @@ msgstr ""
 
 #: framework/extensions/newsletter-subscribe/customizer.php:336,
 #: framework/extensions/trending/customizer.php:380,
-#: framework/premium/extensions/shortcuts/customizer.php:956
+#: framework/premium/extensions/shortcuts/customizer.php:1000
 msgid "Container Background"
 msgstr ""
 
@@ -1250,7 +1252,7 @@ msgid "Container Inner Spacing"
 msgstr ""
 
 #: framework/extensions/newsletter-subscribe/customizer.php:402,
-#: framework/premium/extensions/shortcuts/customizer.php:977
+#: framework/premium/extensions/shortcuts/customizer.php:1021
 msgid "Container Border Radius"
 msgstr ""
 
@@ -1763,21 +1765,21 @@ msgid ""
 "Posts are the choices available."
 msgstr ""
 
-#: framework/features/header/account-modal.php:37
+#: framework/features/header/account-modal.php:41
 msgid "Close account modal"
 msgstr ""
 
-#: framework/features/header/account-modal.php:49,
+#: framework/features/header/account-modal.php:53,
 #: framework/features/header/items/account/options.php:631,
 #: framework/features/header/items/account/views/logout.php:7
 msgid "Login"
 msgstr ""
 
-#: framework/features/header/account-modal.php:53
+#: framework/features/header/account-modal.php:57
 msgid "Sign Up"
 msgstr ""
 
-#: framework/features/header/account-modal.php:72
+#: framework/features/header/account-modal.php:76
 msgid "Back to login"
 msgstr ""
 
@@ -2030,7 +2032,7 @@ msgstr ""
 
 #: framework/extensions/newsletter-subscribe/ct-newsletter-subscribe/options.php:30,
 #: framework/premium/extensions/mega-menu/options.php:527,
-#: framework/premium/extensions/shortcuts/customizer.php:892,
+#: framework/premium/extensions/shortcuts/customizer.php:936,
 #: framework/extensions/widgets/widgets/ct-contact-info/options.php:24,
 #: framework/extensions/widgets/widgets/ct-quote/options.php:31,
 #: framework/features/header/items/account/options.php:336
@@ -2077,7 +2079,7 @@ msgid "Username or Email Address"
 msgstr ""
 
 #: framework/features/header/modal/login.php:33,
-#: framework/features/header/modal/register.php:46
+#: framework/features/header/modal/register.php:51
 msgid "Password"
 msgstr ""
 
@@ -2097,11 +2099,11 @@ msgstr ""
 msgid "Get New Password"
 msgstr ""
 
-#: framework/features/header/modal/register.php:34
+#: framework/features/header/modal/register.php:39
 msgid "Username"
 msgstr ""
 
-#: framework/features/header/modal/register.php:40,
+#: framework/features/header/modal/register.php:45,
 #: framework/premium/extensions/shortcuts/customizer.php:130,
 #: framework/premium/extensions/shortcuts/customizer.php:153,
 #: framework/extensions/widgets/widgets/ct-contact-info/options.php:368,
@@ -2110,15 +2112,15 @@ msgstr ""
 msgid "Email"
 msgstr ""
 
-#: framework/features/header/modal/register.php:56
+#: framework/features/header/modal/register.php:61
 msgid "A link to set a new password will be sent to your email address."
 msgstr ""
 
-#: framework/features/header/modal/register.php:86
+#: framework/features/header/modal/register.php:91
 msgid "Registration confirmation will be emailed to you."
 msgstr ""
 
-#: framework/features/header/modal/register.php:92
+#: framework/features/header/modal/register.php:97
 msgid "Register"
 msgstr ""
 
@@ -2364,7 +2366,7 @@ msgid "Vertical Alignment"
 msgstr ""
 
 #: framework/premium/extensions/mega-menu/options.php:568,
-#: framework/premium/extensions/shortcuts/customizer.php:886,
+#: framework/premium/extensions/shortcuts/customizer.php:930,
 #: framework/premium/extensions/woocommerce-extra/offcanvas-filter.php:346,
 #: framework/features/header/items/account/options.php:1182
 msgid "Background"
@@ -2406,7 +2408,7 @@ msgid "Initial Color"
 msgstr ""
 
 #: framework/premium/extensions/mega-menu/options.php:668,
-#: framework/premium/extensions/shortcuts/customizer.php:903,
+#: framework/premium/extensions/shortcuts/customizer.php:947,
 #: framework/premium/features/premium-header/items/language-switcher/options.php:441,
 #: framework/premium/features/premium-header/items/search-input/options.php:850
 msgid "Items Divider"
@@ -2671,7 +2673,7 @@ msgstr ""
 msgid "Add one or more conditions to display the shortcuts bar."
 msgstr ""
 
-#: framework/premium/extensions/shortcuts/customizer.php:787,
+#: framework/premium/extensions/shortcuts/customizer.php:797,
 #: framework/premium/extensions/post-types-extra/includes/filtering/customizer.php:173,
 #: framework/premium/features/premium-header/items/contacts/options.php:410,
 #: framework/premium/features/premium-header/items/language-switcher/options.php:192,
@@ -2679,7 +2681,7 @@ msgstr ""
 msgid "Font"
 msgstr ""
 
-#: framework/premium/extensions/shortcuts/customizer.php:829,
+#: framework/premium/extensions/shortcuts/customizer.php:841,
 #: framework/premium/features/premium-header/items/contacts/options.php:590,
 #: framework/premium/features/premium-header/items/contacts/options.php:619,
 #: framework/premium/features/premium-header/items/contacts/options.php:650,
@@ -2687,15 +2689,19 @@ msgstr ""
 msgid "Icons Color"
 msgstr ""
 
-#: framework/premium/extensions/shortcuts/customizer.php:868
+#: framework/premium/extensions/shortcuts/customizer.php:873
+msgid "Item Background Color"
+msgstr ""
+
+#: framework/premium/extensions/shortcuts/customizer.php:912
 msgid "Cart Badge Color"
 msgstr ""
 
-#: framework/premium/extensions/shortcuts/customizer.php:923
+#: framework/premium/extensions/shortcuts/customizer.php:967
 msgid "Items Divider Height"
 msgstr ""
 
-#: framework/premium/extensions/shortcuts/customizer.php:937,
+#: framework/premium/extensions/shortcuts/customizer.php:981,
 #: framework/premium/extensions/woocommerce-extra/floating-cart.php:123,
 #: framework/premium/features/content-blocks/options/popup.php:387,
 #: framework/premium/features/premium-header/items/language-switcher/options.php:455
@@ -2826,35 +2832,35 @@ msgstr ""
 msgid "Add widgets here."
 msgstr ""
 
-#: framework/premium/extensions/woocommerce-extra/extension.php:747
+#: framework/premium/extensions/woocommerce-extra/extension.php:742
 msgid "Available Filters"
 msgstr ""
 
-#: framework/premium/extensions/woocommerce-extra/extension.php:748
+#: framework/premium/extensions/woocommerce-extra/extension.php:743
 msgid "Close filters modal"
 msgstr ""
 
-#: framework/premium/extensions/woocommerce-extra/extension.php:841
+#: framework/premium/extensions/woocommerce-extra/extension.php:836
 msgid "Quick view title before"
 msgstr ""
 
-#: framework/premium/extensions/woocommerce-extra/extension.php:846
+#: framework/premium/extensions/woocommerce-extra/extension.php:841
 msgid "Quick view title after"
 msgstr ""
 
-#: framework/premium/extensions/woocommerce-extra/extension.php:851
+#: framework/premium/extensions/woocommerce-extra/extension.php:846
 msgid "Quick view price before"
 msgstr ""
 
-#: framework/premium/extensions/woocommerce-extra/extension.php:856
+#: framework/premium/extensions/woocommerce-extra/extension.php:851
 msgid "Quick view price after"
 msgstr ""
 
-#: framework/premium/extensions/woocommerce-extra/extension.php:861
+#: framework/premium/extensions/woocommerce-extra/extension.php:856
 msgid "Quick view summary before"
 msgstr ""
 
-#: framework/premium/extensions/woocommerce-extra/extension.php:866
+#: framework/premium/extensions/woocommerce-extra/extension.php:861
 msgid "Quick view summary after"
 msgstr ""
 
@@ -5440,28 +5446,28 @@ msgstr ""
 msgid "Add Variation"
 msgstr ""
 
-#: framework/premium/extensions/local-google-fonts/dashboard-static/js/EditSettings.js:108
+#: framework/premium/extensions/local-google-fonts/dashboard-static/js/EditSettings.js:101
+msgid "Add Google Fonts"
+msgstr ""
+
+#: framework/premium/extensions/local-google-fonts/dashboard-static/js/EditSettings.js:111
 msgid "Local Google Fonts (GDPR)"
 msgstr ""
 
-#: framework/premium/extensions/local-google-fonts/dashboard-static/js/EditSettings.js:115
+#: framework/premium/extensions/local-google-fonts/dashboard-static/js/EditSettings.js:118
 msgid ""
 "Download a font and serve it directly from your server, this is handy for "
 "those who want to comply with GDPR regulations or serve the font via CDN."
 msgstr ""
 
-#: framework/premium/extensions/local-google-fonts/dashboard-static/js/EditSettings.js:190
+#: framework/premium/extensions/local-google-fonts/dashboard-static/js/EditSettings.js:194
 msgid ""
 "By checking this option you will download and replace the existing Google "
 "Fonts with the above ones."
 msgstr ""
 
-#: framework/premium/extensions/local-google-fonts/dashboard-static/js/EditSettings.js:240
+#: framework/premium/extensions/local-google-fonts/dashboard-static/js/EditSettings.js:245
 msgid "Sync Google Fonts"
-msgstr ""
-
-#: framework/premium/extensions/local-google-fonts/dashboard-static/js/EditSettings.js:98
-msgid "Add Google Fonts"
 msgstr ""
 
 #: framework/premium/extensions/mega-menu/static/js/SettingsManager.js:138

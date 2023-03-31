@@ -149,7 +149,11 @@ class AccountAuth {
 
 		$users_can_register = get_option('users_can_register');
 
-		if (get_option('woocommerce_enable_myaccount_registration') === 'yes') {
+		if (
+			function_exists('is_product')
+			&&
+			get_option('woocommerce_enable_myaccount_registration') === 'yes'
+		) {
 			$users_can_register = true;
 		}
 

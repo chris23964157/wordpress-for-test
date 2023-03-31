@@ -23,7 +23,7 @@ if ($account_link === 'logout') {
 }
 
 if ($account_link === 'custom') {
-	$link = blocksy_akg('account_custom_page', $atts, '');
+	$link = do_shortcode(blocksy_akg('account_custom_page', $atts, ''));
 }
 
 if ($account_link === 'woocommerce_account' && class_exists('WooCommerce')) {
