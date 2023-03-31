@@ -38,18 +38,16 @@
 
 // Fluid container
 .ct-container-fluid {
-	width: calc(var(--container-edge-spacing, 90vw) - var(--frame-size, 0px) * 2);
-
 	@include media-breakpoint-down (sm) {
-		--container-edge-spacing: 88vw;
+		width: 88vw;
 	}
 
 	@include media-breakpoint-only (md) {
-		--container-edge-spacing: 90vw;
+		width: 90vw;
 	}
 
 	@include media-breakpoint-up (lg) {
-		--container-edge-spacing: calc(100vw - 60px);
+		width: calc(100vw - 60px);
 	}
 }
 

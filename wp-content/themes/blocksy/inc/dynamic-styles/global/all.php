@@ -178,7 +178,7 @@ blocksy_output_colors([
 
 // Content spacing
 $contentSpacingMap = [
-	'none' => '0px',
+	'none' => '0',
 	'compact' => '0.8em',
 	'comfortable' => '1.5em',
 	'spacious' => '2em',

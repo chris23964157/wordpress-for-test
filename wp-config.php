@@ -20,16 +20,16 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'wordpress-for-test' );
+define( 'DB_NAME', "techchris_db" );
 
 /** Database username */
-define( 'DB_USER', 'root' );
+define( 'DB_USER', "root" );
 
 /** Database password */
-define( 'DB_PASSWORD', '' );
+define( 'DB_PASSWORD', "" );
 
 /** Database hostname */
-define( 'DB_HOST', 'localhost' );
+define( 'DB_HOST', "localhost" );
 
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8mb4' );
@@ -48,14 +48,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         '.R$_W(kP/|b^vD#){omSta;+95*B.d@A<_`p4|=miM5%ndX!iHu79lXM#R,T_M 3' );
-define( 'SECURE_AUTH_KEY',  'v{[mzYKKskF^/jd#(&gFXg=UJ1]CXW0mW|)}>o*E:!`.2|&It3gmf|aV7u-yD+9k' );
-define( 'LOGGED_IN_KEY',    '{ec6ab5s*.uh6i]BMKZa_n%BMr3>I8bDLmMA<P0BB@U.YA=2U2=XcIJvmurT8vpF' );
-define( 'NONCE_KEY',        'xQ7VW,lY-ftu0,(%7O&JZ][k!h*5egxYOkpHku8SOblhA2DhfEN3#g/]fN[H?#%,' );
-define( 'AUTH_SALT',        '-ty$A.UTa`|jq0pc2~#a4FacW5m{Ho).OL7Y?>v!l7V/M~7qVqjmJ~;xC1x-.f,k' );
-define( 'SECURE_AUTH_SALT', '!7Av>Cf!|S#R}IM}[mZ4EKUAQsRBqgU&l3)g+kK%Y_/6fIND^IP45]JOAwg]k%@C' );
-define( 'LOGGED_IN_SALT',   'R%rvg>S+M2;{.WSgkcBOo#lF|,*M`tKjT0fZC{rFk7:yUj$9dA.(%-V+SM==EU#@' );
-define( 'NONCE_SALT',       '.sbZZAC I]g/KBH}*7AtJ)6$|)a7<2`Bx>_ZM]fb~?Z8_On70%/IT @ /@p,_cP4' );
+define( 'AUTH_KEY',         '{}OyJbYjrP3{~E,wJ)FYN.KwSLxC]n7w&U3{0DJ}JQ@8&C+>`q.[LhwW3y.-6I~i' );
+define( 'SECURE_AUTH_KEY',  'o>&le<1T{O<NkxMb`}7..gJ6~DE(aYt=nPMoUS}AW{WQtS]p&5B Nyo%I& =q=Yv' );
+define( 'LOGGED_IN_KEY',    'C(jQ.kGt6oOzP5<yGrCpcIoq&.m#YFD}t-z7}x~4J3.Yad$[/rvB+_@qZJYKOfp`' );
+define( 'NONCE_KEY',        'x_A5|0ZKyX<ck/@Q|6U<&,Wg&$dBmi8y@lu.agV%O@P_i+2<@dC3<s8dvhQ7(n>6' );
+define( 'AUTH_SALT',        'ogCz^1RdokF*SqPfBTc%V`<RonMw&Cy|LwAsIf4CHq;yrq#Si:;p(M8TfY&GM-Mv' );
+define( 'SECURE_AUTH_SALT', '(s==U4,:X&|.bx 7wwR:cO}oQz:3Mh+|nT#(S;n-j:Xk0.BA.xaT=16NT`4BOWmi' );
+define( 'LOGGED_IN_SALT',   'WbR,`L:sOpD]0B=dD.98`G6~${jvfwlgJV<%i.,dF+{7i`WdJRl{#39wTch)b@-B' );
+define( 'NONCE_SALT',       ']HukCp+n>U^BWbl@n%DydiZZhMnt$6)uHEW|U98x|rQk-qoE*B}kE3TIco%K}oBp' );
 
 /**#@-*/
 
@@ -85,11 +85,12 @@ define( 'WP_DEBUG', false );
 
 
 
+define( 'WP_SITEURL', 'http://localhost/wordpress-for-test/' );
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */
 if ( ! defined( 'ABSPATH' ) ) {
-	define( 'ABSPATH', __DIR__ . '/' );
+	define( 'ABSPATH', dirname(__FILE__) . '/' );
 }
 
 /** Sets up WordPress vars and included files. */
