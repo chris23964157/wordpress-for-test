@@ -265,6 +265,7 @@ class Blocksy_Header_Builder_Elements {
 			) === 'yes';
 		}
 
+
 		?>
 
 		<div id="search-modal" class="ct-panel" data-behaviour="modal">
@@ -275,7 +276,7 @@ class Blocksy_Header_Builder_Elements {
 			</div>
 
 			<div class="ct-panel-content">
-				<?php get_search_form($search_form_args); ?>
+				<?php blocksy_isolated_get_search_form($search_form_args); ?>
 			</div>
 		</div>
 
